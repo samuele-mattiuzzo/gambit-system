@@ -1,6 +1,13 @@
-# The Gambit System
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-The *Gambit System* is an easy to understand, easy to implement, hard to execute training framework.
+layout: default
+title: The Gambit System
+permalink: /home/
+---
+
+The Gambit system is an easy to understand, easy to implement, hard to execute training framework.
 
 If you want to dive right in, here are the simple rules
 
