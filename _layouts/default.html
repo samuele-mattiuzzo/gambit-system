@@ -24,12 +24,25 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-          <p class="view"><a href="/">The system <small>and its explanations</small></a></p>
-          <p class="view"><a href="/about/">About <small>the Gambit System</small></a></p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-            <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+          <p class="view"><a href="/chapters/01-introduction">
+            Introduction <small>chapter 1</small></a>
+          </p>
+          
+          <p class="view"><a href="/chapters/02-the-idea">
+            The idea <small>chapter 2</small></a>
+          </p>
+          
+          <p class="view"><a href="/chapters/03-the-cards">
+            The cards <small>chapter 3</small></a>
+          </p>
+          
+          <p class="view"><a href="/chapters/04-the-exercises">
+            The exercises <small>chapter 4</small></a>
+          </p>
+          
+          <p class="view"><a href="/chapters/05-the-programming">
+            The programming <small>chapter 5</small></a>
+          </p>
         {% endif %}
 
         {% if site.show_downloads %}
